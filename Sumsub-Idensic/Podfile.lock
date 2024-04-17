@@ -1,0 +1,39 @@
+PODS:
+  - IdensicMobileSDK (1.29.0):
+    - IdensicMobileSDK/Default (= 1.29.0)
+  - IdensicMobileSDK/Core (1.29.0)
+  - IdensicMobileSDK/Default (1.29.0):
+    - IdensicMobileSDK/Core
+  - IdensicMobileSDK/MRTDReader (1.29.0):
+    - IdensicMobileSDK/MRTDReader-latest
+  - IdensicMobileSDK/MRTDReader-latest (1.29.0):
+    - IdensicMobileSDK/Core
+    - OpenSSL-Universal
+  - IdensicMobileSDK/VideoIdent (1.29.0):
+    - IdensicMobileSDK/VideoIdent-compat
+  - IdensicMobileSDK/VideoIdent-compat (1.29.0):
+    - IdensicMobileSDK/Core
+    - TwilioVideo (~> 4)
+  - OpenSSL-Universal (1.1.2200)
+  - TwilioVideo (4.6.3)
+
+DEPENDENCIES:
+  - IdensicMobileSDK
+  - IdensicMobileSDK/MRTDReader
+  - IdensicMobileSDK/VideoIdent
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - OpenSSL-Universal
+    - TwilioVideo
+  https://github.com/SumSubstance/Specs.git:
+    - IdensicMobileSDK
+
+SPEC CHECKSUMS:
+  IdensicMobileSDK: dd6ef271f5c7513525a2d34e7bab0a401487aa2e
+  OpenSSL-Universal: 6e1ae0555546e604dbc632a2b9a24a9c46c41ef6
+  TwilioVideo: 4afaac028c5886f2f3b313a9fcc146a6b7ca34e2
+
+PODFILE CHECKSUM: 42aa9bceb7a77e1696cda2c9a0fefd13a486f3cb
+
+COCOAPODS: 1.14.3
